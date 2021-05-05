@@ -21,4 +21,4 @@ write_files:
       touch /etc/cloud/cloud-init.disabled
 runcmd:
   - [sudo, /tmp/hostname-setup.sh]
-  - [echo test > /tmp/test.txt]
+  - echo test > /tmp/test.txt
